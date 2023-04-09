@@ -1,0 +1,32 @@
+INSERT INTO notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) VALUES (1, 'Dr', '2023-04-09', '2023-04-09', 'dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis', true, 63, 31);
+INSERT INTO notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) VALUES (2, 'Ms', '2023-04-09', '2023-04-09', 'quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue', true, 28, 25);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (3, 'Dr', '7:41 PM', '7:49 AM', 'tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in', true, 14, 29);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (4, 'Rev', '1:44 PM', '3:43 PM', 'tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus', false, 19, 84);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (5, 'Mr', '9:13 AM', '9:00 AM', 'justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra', false, 27, 76);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (6, 'Honorable', '1:45 PM', '8:14 PM', 'sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis', true, 76, 6);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (7, 'Ms', '11:47 PM', '12:10 AM', 'mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem', true, 18, 38);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (8, 'Ms', '9:09 PM', '5:06 AM', 'diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu', false, 16, 63);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (9, 'Honorable', '10:19 AM', '3:56 PM', 'rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id', false, 99, 75);
+insert into notes (notesID, title, createDate, updateDate, description, canDelete, categoryID, userID) values (10, 'Mrs', '5:43 PM', '8:32 PM', 'neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante', false, 15, 21);
+
+insert into users (userID, username, email) values (1, 'Freida', 'ftregunna0@weebly.com');
+insert into users (userID, username, email) values (2, 'Horatio', 'hcassells1@comcast.net');
+insert into users (userID, username, email) values (3, 'Ermina', 'echetwind2@ibm.com');
+insert into users (userID, username, email) values (4, 'Ara', 'apidgeley3@rediff.com');
+insert into users (userID, username, email) values (5, 'Fallon', 'fessex4@digg.com');
+insert into users (userID, username, email) values (6, 'Moria', 'mgauson5@vistaprint.com');
+insert into users (userID, username, email) values (7, 'Rosmunda', 'rkehri6@omniture.com');
+insert into users (userID, username, email) values (8, 'Livvyy', 'lspratt7@china.com.cn');
+insert into users (userID, username, email) values (9, 'Liza', 'lorrock8@godaddy.com');
+insert into users (userID, username, email) values (10, 'Hertha', 'hburnall9@webmd.com');
+
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (1, 1, '1:19 PM', '4:06 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (2, 2, '2:02 PM', '9:40 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (3, 3, '10:10 PM', '6:14 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (4, 4, '5:29 AM', '5:21 PM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (5, 5, '3:53 PM', '12:35 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (6, 6, '11:00 PM', '9:29 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (7, 7, '6:56 PM', '8:16 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (8, 8, '10:10 PM', '3:59 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (9, 9, '7:42 PM', '5:20 AM');
+insert into notes_categories (categoryID, notesID, createdAt, updatedAt) values (10, 10, '5:27 PM', '4:54 AM');
